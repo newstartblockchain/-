@@ -1,0 +1,6 @@
+usr/local/bin/smilecoin-qt usr/bin
+share/pixmaps/smilecoin32.xpm usr/share/pixmaps
+share/pixmaps/smilecoin16.xpm usr/share/pixmaps
+share/pixmaps/smilecoin128.png usr/share/pixmaps
+debian/smilecoin-qt.desktop usr/share/applications
+debian/smilecoin-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,22 @@
+[Unit]
+Description=smilecoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=smilecoincore
+Group=smilecoincore
+
+Type=forking
+PIDFile=/var/lib/smilecoind/smilecoind.pid
+ExecStart=/usr/bin/smilecoind -daemon -pid=/var/lib/smilecoind/smilecoind.pid \
+-conf=/etc/smilecoincore/smilecoin.conf -datadir=/var/lib/smilecoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

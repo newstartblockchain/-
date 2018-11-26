@@ -1,0 +1,33 @@
+# /etc/conf.d/smilecoind: config file for /etc/init.d/smilecoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/smilecoincore/smilecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/smilecoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/smilecoind.pid"
+
+# Where to write smilecoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/smilecoind"
+
+# User and group to own smilecoind process
+#BITCOIND_USER="smilecoincore"
+#BITCOIND_GROUP="smilecoincore"
+
+# Path to smilecoind executable
+#BITCOIND_BIN="/usr/bin/smilecoind"
+
+# Nice value to run smilecoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/smilecoin_bg.qm</file>
+        <file alias="de">locale/smilecoin_de.qm</file>
+        <file alias="en">locale/smilecoin_en.qm</file>
+        <file alias="es">locale/smilecoin_es.qm</file>
+        <file alias="fi">locale/smilecoin_fi.qm</file>
+        <file alias="fr">locale/smilecoin_fr.qm</file>
+        <file alias="it">locale/smilecoin_it.qm</file>
+        <file alias="ja">locale/smilecoin_ja.qm</file>
+        <file alias="pl">locale/smilecoin_pl.qm</file>
+        <file alias="pt">locale/smilecoin_pt.qm</file>
+        <file alias="ru">locale/smilecoin_ru.qm</file>
+        <file alias="sk">locale/smilecoin_sk.qm</file>
+        <file alias="sv">locale/smilecoin_sv.qm</file>
+        <file alias="vi">locale/smilecoin_vi.qm</file>
+        <file alias="zh_CN">locale/smilecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/smilecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

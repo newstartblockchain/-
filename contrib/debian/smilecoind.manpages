@@ -1,0 +1,3 @@
+debian/manpages/smilecoind.1
+debian/manpages/smilecoin.conf.5
+debian/manpages/smilecoin-cli.1

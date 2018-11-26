@@ -1,0 +1,11 @@
+[Protocol]
+exec=smilecoin-qt '%u'
+protocol=smilecoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
